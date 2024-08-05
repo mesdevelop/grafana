@@ -1431,6 +1431,15 @@ var (
 			FrontendOnly: true,
 			Owner:        grafanaObservabilityLogsSquad,
 		},
+		{
+			Name:              "newNewBrowseDashboards",
+			Description:       "Experimental new browse dashboards, using window-scrolling virtualization",
+			Stage:             FeatureStageExperimental,
+			Owner:             grafanaFrontendPlatformSquad,
+			HideFromDocs:      true,
+			HideFromAdminPage: true,
+			FrontendOnly:      true,
+		},
 	}
 )
 
