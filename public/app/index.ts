@@ -19,4 +19,16 @@ if (window.nonce) {
 window.__grafana_app_bundle_loaded = true;
 
 import app from './app';
-app.init();
+
+const prepareInit = async () => {
+  console.log('prepare init');
+  return import('./features/browse-dashboards/new-api/mocks/browser').then((workerModule) => {
+    console.log('loaded worker module');
+    return workerModule.default.start({ onUnhandledRequest: 'warn' });
+  });
+};
+
+prepareInit().then(() => {
+  console.log('init app');
+  app.init();
+});
