@@ -1535,10 +1535,6 @@
     "explore": {
       "title": "Explore"
     },
-    "external-group-sync": {
-      "title": "External group sync",
-      "subtitle": "Manage identity provider group mappings to Grafana user attributes"
-    },
     "frontend": {
       "subtitle": "Gain real user monitoring insights",
       "title": "Frontend"
@@ -1556,6 +1552,9 @@
     },
     "grafana-quaderno": {
       "title": "Grafana Quaderno"
+    },
+    "groupsync": {
+      "subtitle": "Manage mappings of Identity Provider groups to Grafana user attributes"
     },
     "help": {
       "title": "Help"
