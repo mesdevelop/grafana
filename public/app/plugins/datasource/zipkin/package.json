@@ -9,7 +9,7 @@
     "@grafana/e2e-selectors": "workspace:*",
     "@grafana/experimental": "1.8.0",
     "@grafana/o11y-ds-frontend": "workspace:*",
-    "@grafana/runtime": "workspace:*",
+    "@grafana/runtime": "6.3.2",
     "@grafana/ui": "workspace:*",
     "lodash": "4.17.21",
     "react": "18.2.0",
