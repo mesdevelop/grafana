@@ -32,7 +32,7 @@
   "dependencies": {
     "@emotion/css": "11.11.2",
     "@grafana/data": "workspace:*",
-    "@grafana/runtime": "workspace:*",
+    "@grafana/runtime": "6.3.2",
     "@grafana/schema": "workspace:*",
     "@grafana/ui": "workspace:*",
     "react": "18.2.0",
