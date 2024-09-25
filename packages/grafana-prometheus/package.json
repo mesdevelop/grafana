@@ -41,7 +41,7 @@
     "@grafana/data": "11.3.0-pre",
     "@grafana/experimental": "1.8.0",
     "@grafana/faro-web-sdk": "1.9.1",
-    "@grafana/runtime": "11.3.0-pre",
+    "@grafana/runtime": "6.3.2",
     "@grafana/schema": "11.3.0-pre",
     "@grafana/ui": "11.3.0-pre",
     "@hello-pangea/dnd": "16.6.0",
