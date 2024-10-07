@@ -6,9 +6,9 @@
   "dependencies": {
     "@emotion/css": "11.11.2",
     "@grafana/data": "11.3.0-pre",
-    "@grafana/runtime": "11.3.0-pre",
+    "@grafana/runtime": "6.3.2",
     "@grafana/schema": "11.3.0-pre",
-    "@grafana/ui": "11.3.0-pre",
+    "@grafana/ui": "6.3.2",
     "lodash": "4.17.21",
     "monaco-editor": "0.34.1",
     "react": "18.2.0",
